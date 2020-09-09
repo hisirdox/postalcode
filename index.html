@@ -1,0 +1,42 @@
+<!--Versão do html-->
+<!DOCTYPE html>
+<!--Linguagem do documento-->
+<html lang="pt-br">
+
+<!--Meta dados-->
+<head>
+	<!--Caracteres brasileiros-->
+	<meta charset="utf-8">
+	<!--Adaptar a largura do dispositivo-->
+	<meta name="viewport" content="width=device-width">
+	<!--Titulo da pagina-->
+	<title>Index</title>
+	<!--Estilo principal-->
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<!--Jquery-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!--Script principal-->
+	<script src="js/main.js"></script>
+	<!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+</head>
+<!--Fim dos meta dados-->
+
+<!--Corpo da pagina-->
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand">Consulta cep</a>
+      <div class="form-inline my-2 my-lg-0">
+        <input id="cep" class="form-control mr-sm-2" type="search" placeholder="CEP">
+        <button onclick="consulta_cep()" class="btn btn-outline-success my-2 my-sm-0">Buscar</button>
+      </div>
+  </nav>
+
+  <p id="response"></p>
+
+</body>
+<!--Fim do corpo da pagina-->
+
+<!--Fim do documento-->
+</html> 
