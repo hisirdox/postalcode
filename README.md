@@ -20,11 +20,6 @@
   <a href="https://github.com/Nerd0000/Consulta-de-Cep/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Nerd0000/Consulta-de-Cep.svg">
   </a>
-
-  <a href="https://github.com/Nerd0000/Consulta-de-Cep/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/Nerd0000/Consulta-de-Cep.svg">
-  </a>
-  
 </p>
 
 => [Deploy](https://nerd0000.github.io/Consulta-de-Cep)
