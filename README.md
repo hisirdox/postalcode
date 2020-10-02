@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  Um serviço para consutar informações de um Cep
+  Um serviço para consultar informações de um Cep
 </h4>
 
 <p align="center">
