@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  Um banner no topo da página que troca de imagem a cada poucos segundos
+  Um serviço para consutar informações de um Cep
 </h4>
 
 <p align="center">
