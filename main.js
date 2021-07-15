@@ -19,13 +19,9 @@ function consulta_cep() {
       document.getElementById("response").innerHTML = 
       "Cep: " + response.cep + "<br>" +
       "Logradouro: " + response.logradouro + "<br>" +
-      "Complemento: " + response.complemento + "<br>" +
       "Bairro: " + response.bairro + "<br>" +
       "Localidade: " + response.localidade + "<br>" +
-      "UF: " + response.uf + "<br>" +
-      "Unidade: " + response.unidade + "<br>" +
-      "Ibge: " + response.ibge + "<br>" +
-      "Gia: " + response.gia;
+      "UF: " + response.uf + "<br>"
 
       // caso o cep nao exista, mostre essa mensagem
       if(response.cep == undefined) {
