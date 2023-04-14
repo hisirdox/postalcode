@@ -1,34 +1,27 @@
 <!DOCTYPE html>
+  <head>
+    <!--Titulo da pagina-->
+    <title>Consulta de cep</title>
+    <!--Adaptar a largura do dispositivo-->
+    <meta name="viewport" content="width=device-width">
+    <!--Script principal-->
+    <script src="index.js"></script>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  </head>
 
-<head>
-  <!--Titulo da pagina-->
-  <title>Consulta de cep</title>
-  <!--Caracteres brasileiros-->
-  <meta charset="utf-8">
-  <!--Adaptar a largura do dispositivo-->
-  <meta name="viewport" content="width=device-width">
-  <!--Estilo principal-->
-  <link href="index.css" rel="stylesheet" type="text/css">
-  <!--Script principal-->
-  <script src="index.js"></script>
-  <!--Jquery-->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-</head>
-
-<body>
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand">Consulta cep</a>
-    <div class="form-inline my-2 my-lg-0">
-      <input id="cep" class="form-control mr-sm-2" type="search" placeholder="CEP">
-      <button onclick="consulta_cep()" class="btn btn-outline-success my-2 my-sm-0">Buscar</button>
-    </div>
-  </nav>
-
-  <p id="response"></p>
-</body>
-
+  <body class="bg-dark">
+    <nav class="d-flex flex-column align-items-center p-3">
+      <h1 class="text-light">Consulta cep</h1>
+      <div class="form-inline my-2">
+        <input id="cep" class="form-control mr-2" placeholder="CEP">
+        <button onclick="consulta_cep()" class="btn btn-outline-success my-2">Buscar</button>
+      </div>
+    </nav>
+    <p class="text-light d-flex justify-content-center" id="response"></p>
+  </body>
 </html>
